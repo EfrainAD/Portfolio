@@ -3,6 +3,19 @@ body {
      color: wheat;
      /* text-align: center; */
 }
+h1, h2, h3, h4 {
+     margin-bottom: 0.25em;
+}
+h4 {margin-bottom: 0px; padding: 0px;}
+ul {
+     margin-top: 0px;
+}
+p {
+     margin-top: 0px;
+}
+ul {
+     overflow: hidden;
+}
 a {
      color: whitesmoke;
      padding: 0px 50px;
@@ -13,4 +26,56 @@ header {
 .profile-picture {
      border-radius: 100%;
      height: 15em;
+}
+/* This the rapper for section of projects that are grouped together */
+.projects {
+     display: inline-block;
+     grid-template-columns: 2fr;
+     /* grid-template-rows: 1fr; */
+}
+/* This rapper for the whole project */
+.ga-project {
+     /* width: 100vw;
+     height: 100vw; */
+     display: inline-blocks;
+     width: 100px;
+     height: 150px;
+     grid-template-columns: 3fr;
+     grid-template-rows: 1fr;
+     /* color: blue; */
+}
+.ga-project > * {
+     display: inline-block;
+}
+/* This for change value of the img itself only */
+.project-img img {
+     width: 50%; 
+     /* grid-gap: 2em; */
+     height: auto;
+}
+/* Img and headling for the img go here. */
+.project-img {
+     /* grid-column: 1/2; */
+     /* width: 25%; */
+     /* align-self: center; */
+     text-align: center;
+     border: 3px solid black;
+     /* grid-column: 1/3; */
+     /* grid-column-start: 1;
+     grid-column-end: span 1; */
+}
+/* .ga-project h3 {
+     grid-column: 1/2;
+     text-align: center;
+} */
+/* Any info about the project */
+/* .project-body {
+     /* grid-column: 2/2; */
+     /* grid-column-start: 2;
+     grid-column-end: span 2; */
+} */
+/* Links to project github or deplyment */
+.project-footer {
+     /* grid-column: 1/3; */
+     text-align: center;
 }
