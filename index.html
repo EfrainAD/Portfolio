@@ -1,59 +1,196 @@
 <!DOCTYPE html>
-     <head>
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <title>Efrain A. Davila Portfolio</title>
-          <meta name="description" content="">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="stylesheet" href="style.css">
-     </head>
-     <body> 
-          <header>
-               <img src="https://d1w2poirtb3as9.cloudfront.net/a2f6c2436f2d8d9cfb2a.jpeg?Expires=1663255049&Signature=tAZPixMu5xKxT0UP-GITCaeBtCJeQUGEaT1QhK2pKiguc3IYJh-fa1BK9jjwHPqWgm~P8vHUimVAg19PFNenOxA7STzgRoE5nIKFLpZ7LHgcX81kkI~MJtUyT6DNkvePxmhKRVnEPp6JnfH6~7gdhHRiU4HcGL9yBXiYDufHP~UzIHlv~5B7ITr-ZY-uVVuF897cAC3SndUnhtmQFLPMa32wqTNpirIMRZj-lzC2AtSNYwKTJbV9bVKIaz~oNR4VFjxwFg02yif-86KUc2yXBOXO3AE-rlHnAswpic~Kwgg7aHg1-3L1f7SmkagBUuh77i9f6tRhT8DxcMDQLokzJg__&Key-Pair-Id=K36LFL06Z5BT10" alt="profile picture" class="profile-picture">
-               <h1>Efrain A. Davila</h1>
-          </header>
+<html>
+<head>
+	<title>Efrain A. Davila Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
-          <h2>About Me</h2>
-          <p>This is the part where I talk about me. Tell you that I am a full stack software engineer, even though I have not been hired for that role yet. That I enjoy solving how to do things, and always improving in what I do, or I get bored. That's probably why I like playing the board game Go so much.</p>
-          <p>Probably good traits to have when you're legally blind and hard of hearing. As you can guess that does give you problems, and you're better off if you try to do as much as you can to limit its effects. Cell phone cameras were never made for the blind people, but they are great for us. My VR headset was made for games, I saw it as an assistive technology. Can I really have such a big screen I can move around? Yes, I can. Can I really have a my books with text as large has I need them with an ipad's kindle app? Yes, the best assistive technology for being legally blind were never intended to be. I have stubbornly tried to go up to the line of what I can do.</p>
+	<!-- <link rel="icon" type="image/x-icon" href="assets/img/favicon.png"> -->
+	<meta name="author" content="Efrain A. Davila">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="mailto: efrainadavilajobsearch@gmail.com" class="nav-item">
+					<span class="icon">
+						<img class="fa fa-twitter" src="assets/img/mail.png">
+					</span>
+				</a>
+				<a href="http://github.com/EfrainAD" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<!-- hereeeeeee -->
+				<a href="https://www.linkedin.com/in/efraindavila/" class="nav-item">
+					<span class="icon">
+							<img class="fa fa-twitter" src="assets/img/linkedin.png">
+					</span>
+				</a>				
+			</div>
 
-          <h2>This is my Projects</h2>
-          <h3>Project 1</h3>
-          <P>Outside of a Tic Tac Toe game whit was my first project. And first Project I struggle with. I wanted to stretch myself as far as I could. This project holds the most memories for me. It was for my General Assemply bootcamp, and I was very disapointed how far I had gotten. This is the one project I learn most about fixing bugs. As time has passed, I have become less and less disapointed with it. I do wish I was able to do more in the timeframe I had, but I kept braking everything under the sun.</P>
-          <ul>
-               <li>Use arrow keys to move around. (You can use a, s, d, and e keys if you like.)</li>
-               <li>spacebar: to kill zombie</li>
-               <li>If you touch or too close in range you die!</li>
-               <li>You need to be close enough to kill without touching.</li>
-               <li>You can not hill a zombie that is facing you. You can only kill from behind or from the sides.</li>
-               <li>May need to refresh the page when you first load it.</li>
-          </ul>
-          <a href="https://github.com/EfrainAD/Project-One-Servive-the-Zombies">Servive the Zombes</a> 
-          <a href="https://efrainad.github.io/Project-One-Servive-the-Zombies/">Play the game here.</a>
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#social">Social</a>
+			</div>
 
-          <h2>Project 2</h2>
-          <p>This is a start of a personal project I would like to work on. I plan to keep working on this one, and use what I learned to move that over to my 'real' project. I would like to have this stepping stone complete though.</p>
-          <p>This is a study app that the user self evaluates themselves, then based on their answer the flashcard will be seen again later and later, so the user can be more efficient in their studies.</p>
-          <a href="https://github.com/EfrainAD/Project_2">Github Link</a>
-          <a href="https://gostudies.herokuapp.com/collection">Depolyment Link</a>
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/Profile_Picture.jpeg" alt="Efrain's profile picture">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					This is the part where I talk about me. Tell you that I am a full stack software engineer, even though I have not been hired for that role yet. That I enjoy solving how to do things, and always improving in what I do, or I get bored. That's probably why I like playing the board game Go so much.
+				</p>
+				<p class="intro">
+					Probably good traits to have when you're legally blind and hard of hearing. As you can guess that does give you problems, and you're better off if you try to do as much as you can to limit its effects. Cell phone cameras were never made for the blind people, but they are great for us. My VR headset was made for games, I saw it as an assistive technology. Can I really have such a big screen I can move around? Yes, I can. Can I really have a my books with text as large has I need them with an ipad's kindle app? Yes, the best assistive technology for being legally blind were never intended to be. I have stubbornly tried to go up to the line of what I can do.
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">My General Assembly Bootcamp Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="./assets/img/Project_1.png" alt="Screen Shot of someone playing Survive The Zombes">
+									</figure>
+								</div>
+								<div>
+									<p>
+										Outside of a Tic Tac Toe game this was my first project. And first Project I struggle with. I wanted to stretch myself as far as I could. This project holds the most memories for me. It was for my General Assemply bootcamp, and I was very disapointed how far I had gotten. This is the one project I learn most about fixing bugs. As time has passed, I have become less and less disapointed with it. I do wish I was able to do more in the timeframe I had, but I kept braking everything under the sun.
+									</p>
+									<h4>How to play</h4>
+									<ul>
+										<li>Use arrow keys to move around. (You can use a, s, d, and e keys if you like.)</li>
+										<li>spacebar: to kill zombie</li>
+										<li>If you touch or too close in range you die!</li>
+										<li>You need to be close enough to kill without touching.</li>
+										<li>You can not hill a zombie that is facing you. You can only kill from behind or from the sides.</li>
+										<li>May need to refresh the page when you first load it.</li>
+									</ul>
+								</div>
+								<div class="project-links"><a href="https://github.com/EfrainAD/Project-One-Servive-the-Zombies">Survive the Zombes</a> 
+									<a href="https://efrainad.github.io/Project-One-Servive-the-Zombies/">Play the game here.</a></div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/project_2.png" alt="Image">
+									</figure>
+								</div>
+								<div>
+									<p>This is a start of a personal project I would like to work on. I plan to keep working on this one, and use what I learned to move that over to my 'real' project. I would like to have this stepping stone complete though.</p>
+               						<p>This is a study app that the user self evaluates themselves, then based on their answer the flashcard will be seen again later and later, so the user can be more efficient in their studies.</p>
+								</div>
+								<div class="project-links">
+									<a href="https://github.com/EfrainAD/Project_2">Github Link</a>
+               						<a target="_blank" href="https://gostudies.herokuapp.com/collection">Depolyment Link</a>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/Drearmlancer.png" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>This was my second project I did working with a team. It very much had opened my eyes to how much fun working with a team can be. We messed up, and had some push back with each other, but we worked well with each other.</p>
 
-          <h2>Project 4</h2>
+               						<p>We made an web app that had two types of users. First was a client who post a job, and the others where developers who would bid for the job.</p>
+								</div>
+								<div class="project-links">
+									<a href="https://github.com/EfrainAD/Dreamlancer-client">Github Link for the frontend with React</a>
+               						<a href="https://github.com/EfrainAD/Dreamlancer-server">Github Link for the backend with Express</a>
+               						<!-- <a href="">Depolyment</a> -->
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="columns is-multiline is-desktop">
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/Genshin_Artifact_Calculator.png" alt="Image">
+									</figure>
+								</div>
+								<div>			
+									<p>This is mostly complete. Was first project I did with a team. My job was the structure of the web pages and front-end features. Not much I would like to do with this, other then see how I can make it look nicer.</p>
+								</div>
+								<div class="project-links">
+									<a href="https://github.com/EfrainAD/project-3-React">Github Link for the frontend with React</a>
+               						<a href="	https://github.com/mcguirto/Genshin-Artifact-Calculator-Server.git">Github Link for the backend with django</a>
+									<!-- <a href="">Depolyment</a> -->
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-          <p>This was my second project I did working with a team. It very much had opened my eyes to how much fun working with a team can be. We messed up, and had some push back with each other, but we worked well with each other.</p>
-
-          <p>We made an web app that had two types of users. First was a client who post a job, and the others where developers who would bid for the job.</p>
-
-          <a href="https://github.com/EfrainAD/Dreamlancer-client">Github Link for the frontend with React</a>
-          <a href="https://github.com/EfrainAD/Dreamlancer-server">Github Link for the backend with Express</a>
-          <!-- <a href="">Depolyment</a> -->
-
-          <h2>Project 3</h2>
-          <p>This is mostly complete. Was first project I did with a team. My job was the structure of the web pages and front-end features. Not much I would like to do with this, other then see how I can make it look nicer.</p>
-          
-          <a href="https://github.com/EfrainAD/project-3-React">Github Link for the frontend with React</a>
-          <a href="	https://github.com/mcguirto/Genshin-Artifact-Calculator-Server.git">Github Link for the backend with django</a>
-          <!-- <a href="">Depolyment</a> -->
-
-          <script src="" async defer></script>
-     </body>
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Higher Me!</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.linkedin.com/in/efraindavila/"><img class="" src="assets/img/linkedin.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="mailto: efrainadavilajobsearch@gmail.com"><img class="" src="assets/img/mail.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a href="http://www.hassanali.me/about">Template Creater Hassan Ali</a>
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
 </html>
