@@ -3,15 +3,18 @@ html, body{
 	color: #dfdfdf;
 	background-color: #063647; 
 }
+
 p {
 	margin: 1em;
 }
-a {
-  color: #00d1b2;
+
+.project-links a {
+	color: #00d1b2; 
+	display:flex; justify-content:flex-start;
 }
 
-a:hover {
-  color: #00d1b2;
+.project-links a:hover{
+	background-color: #00B398; /*#00957F;*/
 }
 
 section{
@@ -77,14 +80,13 @@ a.nav-item:hover {
 
 .title {
 	color: #fff;
-	text-align: left;
 	margin-bottom: 2rem;
 }
 
 .intro {
 	text-align: justify;
 	width: 80%;
-	margin: 0 auto;
+	margin: 1em auto;
 }
 
 .void-background {
@@ -109,12 +111,13 @@ a.nav-item:hover {
 	}
 
 }
+
 /* The Modal (background) */
 .modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */
-	padding-top: 300px; /* Location of the box */
+	padding-top: 10%; /* Location of the box */
 	left: 0;
 	top: 0;
 	width: 100%; /* Full width */
@@ -124,21 +127,41 @@ a.nav-item:hover {
 	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
    }
    
-.deploy {
-	float: right;
-	background-color: gray;
-}
-
    /* Modal Content */
    .modal-content {
-	background-color: #fefefe;
+	text-align: center;
+	color: #dfdfdf;
+	background-color: #9B1311;
 	margin: auto;
 	padding: 20px;
 	border: 1px solid #888;
-	width: 80%;
-	color: black;
+	width: 23em;
    }
-   
+
+.modal-content li {
+	text-align: left;
+	padding: 6px;
+}
+.modal-content h4 {
+	display: block;
+	font-size: 1.8em;
+	/* font-size: 1.17em; */
+    margin-top: 0.9em;
+    margin-bottom: 0.3em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.modal-content button {
+	background-color: #00d1b2;
+	font-size: 1.5em;
+	padding: 1em 3em;
+	margin: 1em;
+}
+.modal-content button {
+	background-color: #00B398;
+}
+
    /* The Close Button */
    .close {
 	color: #aaaaaa;
