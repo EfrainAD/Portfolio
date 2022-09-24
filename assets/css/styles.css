@@ -8,6 +8,9 @@ p {
 	margin: 1em;
 }
 
+.project-links {
+	border-top:1px solid #dbdbdb
+}
 .project-links a {
 	color: #00d1b2; 
 	display:flex; justify-content:flex-start;
@@ -56,7 +59,7 @@ a.nav-item:hover {
 	padding-top: 1rem;
 }
 
-.social-container img{
+.connect-container img{
 	max-width:100%;
 	max-height:175px;
 	margin-bottom:15px;
@@ -72,10 +75,12 @@ a.nav-item:hover {
 	text-align: justify;
 }
 
-.box {
+.box  {
+	
 	background-color: transparent;
 	border: 2px solid rgba(7, 59, 79, 0.5);
 	max-width: 400px;
+	height: 100%;
 }
 
 .title {
@@ -125,10 +130,9 @@ a.nav-item:hover {
 	overflow: auto; /* Enable scroll if needed */
 	background-color: rgb(0,0,0); /* Fallback color */
 	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-   }
-   
-   /* Modal Content */
-   .modal-content {
+}
+/* Modal Content */
+.modal-content {
 	text-align: center;
 	color: #dfdfdf;
 	background-color: #9B1311;
@@ -136,8 +140,7 @@ a.nav-item:hover {
 	padding: 20px;
 	border: 1px solid #888;
 	width: 23em;
-   }
-
+}
 .modal-content li {
 	text-align: left;
 	padding: 6px;
@@ -162,17 +165,16 @@ a.nav-item:hover {
 	background-color: #00B398;
 }
 
-   /* The Close Button */
-   .close {
+/* The Close Button */
+.close {
 	color: #aaaaaa;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
-   }
-   
-   .close:hover,
-   .close:focus {
+}
+
+.close:hover, .close:focus {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
-   }
+}

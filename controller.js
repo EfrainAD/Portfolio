@@ -12,7 +12,6 @@ window.onload = () => {
 
 ///// modals /////
 // Get the modal
-var modal = document.getElementById("myModal");
 var modal = document.getElementById("zombie-directions");
 
 // Get the button that opens the modal
