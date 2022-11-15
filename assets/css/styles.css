@@ -4,10 +4,16 @@ html, body{
 	background-color: #063647; 
 }
 
-p {
+p, ol {
 	margin: 1em;
 }
-
+hr {
+	background: #063647;
+	margin-top: 3rem;
+}
+.p-header {
+	font-weight: bold;
+}
 .project-links {
 	border-top:1px solid #dbdbdb
 }
