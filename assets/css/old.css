@@ -3,32 +3,16 @@ html, body{
 	color: #dfdfdf;
 	background-color: #063647; 
 }
-/* .fa-github {
-	font-size: 10rem;
-}
-.fa-square-github {
-	font-size: 10rem;
-} */
-.icon {
-	font-size: 1.6rem;
-}
-.fa-square-envelope {
-	color: gray;
-}
-.fa-github-square {
-	color: white;
-}
-.fa-linkedin {
-	color: blue;
-}
-nav a {
-	font-size: 1.6rem;
+
+p, ol {
+	margin: 1em;
 }
 strong {
 	color: #dfdfdf;
 }
 hr {
 	background: #063647;
+	margin-top: 3rem;
 }
 .p-header {
 	font-weight: bold;
@@ -38,12 +22,16 @@ hr {
 }
 .project-links a {
 	color: #00d1b2; 
-	display:flex; 
-	justify-content:flex-start;
+	display:flex; justify-content:flex-start;
 }
 
 .project-links a:hover{
 	background-color: #00B398; /*#00957F;*/
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .section-1 {
@@ -76,10 +64,26 @@ a.nav-item:hover {
 	border-radius: 50%;
 }
 
+.intro-description{
+	padding-top: 1rem;
+}
+
 .connect-container img{
 	max-width:100%;
 	max-height:175px;
 	margin-bottom:15px;
+}
+.column {
+	display: block;
+	flex-basis: 0;
+	flex-grow: 0;
+	flex-shrink: 1;
+	padding: 0.75rem;
+ }
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
 }
 
 .box  {
@@ -93,6 +97,13 @@ a.nav-item:hover {
 
 .title {
 	color: #fff;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 1em auto;
 }
 
 .void-background {
@@ -172,6 +183,7 @@ a.nav-item:hover {
 	font-size: 28px;
 	font-weight: bold;
 }
+
 .close:hover, .close:focus {
 	color: #000;
 	text-decoration: none;
