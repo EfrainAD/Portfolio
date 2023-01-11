@@ -97,6 +97,7 @@ a.nav-item:hover {
 .title {
 	color: #fff;
 	margin-bottom: 2rem;
+	text-transform: capitalize;
 }
 
 .intro {
