@@ -72,8 +72,11 @@ a.nav-item:hover {
 	max-height:175px;
 	margin-bottom:15px;
 }
+.columns {
+	display: flex;
+	justify-content: center;
+}
 .column {
-	display: block;
 	flex-basis: 0;
 	flex-grow: 0;
 	flex-shrink: 1;
