@@ -100,19 +100,19 @@ a.nav-item:hover {
 	background-color: blue;
 	height: 5px;
 }
-.progress-bar._100-Days-of-JS {
+.progress-bar ._100-Days-of-JS {
 	width: 40%;
 }
-.progress-bar.Inventory-Management {
+.progress-bar .Inventory-Management {
 	width: 90%;
 }
-.progress-bar.ZTM-Complete-React {
+.progress-bar .ZTM-Complete-React {
 	width: 42%;
 }
-.progress-bar.ZTM-Data-Structure {
+.progress-bar .ZTM-Data-Structure {
 	width: 72%;
 }
-.progress-bar.Design-With-CSS {
+.progress-bar .Design-With-CSS {
 	width: 40%;
 }
 
