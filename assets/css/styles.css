@@ -6,6 +6,15 @@ html, body{
 p, ol {
 	margin: 1em;
 }
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-top: 1em;
+	margin-bottom: 1 em;
+	margin-left: 0; 
+	margin-right: 0; 
+	padding-left: 40px;
+}
 strong {
 	color: #dfdfdf;
 }
@@ -15,6 +24,8 @@ hr {
 }
 .p-header {
 	font-weight: bold;
+	margin-top: 1rem;
+	font-size: 1.1rem;
 }
 .project-links {
 	border-top:1px solid #dbdbdb
@@ -87,33 +98,35 @@ a.nav-item:hover {
 	max-height: 256px;
 	max-width: 256px;
 }
-
+.project-figure img {
+	height: 150px;
+}
+.deploy {
+	margin-top: 0.3rem;
+}
 .box  {
 	background-color: transparent;
 	border: 2px solid rgba(7, 59, 79, 0.5);
 	width: 350px;
-	/* max-width: 400px;
-	min-width: 300px; */
+	/* max-width: 400px;*/
+	min-width: 350px;
 	height: 100%;
 }
 .progress-bar {
 	background-color: blue;
-	height: 5px;
+	height: 7px;
 }
 .progress-bar._100-Days-of-JS {
 	width: 40%;
 }
-.progress-bar.Inventory-Management {
-	width: 90%;
-}
 .progress-bar.ZTM-Complete-React {
-	width: 42%;
+	width: 49%;
 }
 .progress-bar.ZTM-Data-Structure {
-	width: 72%;
+	width: 74%;
 }
 .progress-bar.Design-With-CSS {
-	width: 40%;
+	width: 45%;
 }
 
 .title {

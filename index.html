@@ -96,30 +96,6 @@
 							</div>
 						</div>
 					</div>
-					<!-- Project 2 - Inventory Management App API -->
-					<div class="column">
-						<div class="box">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<img src="./assets/img/MERN-Stack-Course-2023.jpeg" alt="Image">
-										<div class="progress-bar Inventory-Management"></div>
-									</figure>
-								</div>
-								<div class="has-text-centered">Tutorial | Express.js | MongooseDB</div>
-								<div>
-									<p>Backend is done. Currently working on the frontend to show the backend off</p>
-               						<p>Building an inventory app, learned most about autherizing users useing <strong>JWT authentication</strong>, using token with cookies, how middleware work (Verse useing them withough knowing why it worked.), uploading files, setting up emails.</p>
-									<p>Learning some frontend things, but those shown to me, not explained.</p>
-								</div>
-								<div class="project-links">
-									<a href="https://github.com/EfrainAD/Inventory-Management-App-API">Github Link</a>
-									<a href="https://github.com/EfrainAD/Inventory-Management-App">Github Link for the frontend</a>
-               						<!-- <a class="deploy" target="_blank" href="">Depolyment Link</a> -->
-								</div>
-							</article>
-						</div>
-					</div>
 					<!-- project 3 - Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL -->
 					<div class="column">
 						<div class="box">
@@ -310,13 +286,14 @@
 				</div>
 			</div>
 			<div>
+				<!-- My Side Projects -->
 				<div class="has-text-centered">
 					<hr>
 					<h3 class="title is-3">My Side Projects</h3>
 				</div>
 				
 				<div class="columns is-multiline is-desktop">
-					<!-- Project 1 -->
+					<!-- My Side Projects - Tic-Tac-Toe -->
 					<div class="column">
 						<div class="box">
 							<div>
@@ -350,6 +327,55 @@
 							</div>
 						</div>
 					</div>
+					<!-- My Side Projects - Inventory Management App -->
+					<div class="column">
+						<div class="box">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="./assets/img/Inventory-Management-App.png" alt="Screenshot of the Inventory Management App" />
+									</figure>
+								</div>
+								<div class="has-text-centered">Tutorial | Express.js | MongooseDB</div>
+								<div>
+									<div class="p-header has-text-centered">
+										The main things I learned:
+									</div>
+									<ul>
+										<li>I got a better understanding of middleware.</li>
+										<li>I learned build authentication with JSON Web, and used cookies. I didn’t use JSON Web token nor was cookies used in my past projects.</li>
+										<li>Learned to set up emails and send them to user’s email, so they can reset their password if they forgot it. </li>
+										<li>I also learned when setting up the “contact us”, I can set the email to go the owner of the website, so that when they click reply, it will use the user’s email.</li>
+										<li>Upload images with multer and save to Cloudinary</li>
+										<li>Manage state with Redux Toolkit (Though I liked the implementation I am learning in another tutorial better.)</li>
+										<li>Utilize "express-async-handler" package</li>
+										<li>Setup error handling in Express</li>
+									</ul>
+									<div class="p-header has-text-centered">
+										Main things I learned on my own
+									</div>
+									<ol>
+										<li> I change the upload image with multer to use memory/buffer instead of saving the file on the server. (A free server didn’t want me to use up there space, and it was wasteful anyways, since I was just uploading it to cloudinary.)</li>
+										<li>I also set it up that you could easily change multer methods with env.</li>
+										<li>I didn’t like uploading images to claudinaly from the front end by setting it up to not require a signature, as how the tutorial showed me. So I looked at the cloudinary documentation to see how I could use signatures that would be sent from my API to the client to upload the image from there.</li>
+										<li>Another reason I didn’t like how the tutorial did this, was anyone could flood my cloudinary storage by uploading files again and again. So I found that I could give the file a name, and if I tried to upload a file with the same name, it would overwrite the old file. liked this kept my storage clean. And the signature made sure they couldn’t name file anything they wanted. (I used the user ID for profile pictures, because they are unique and the SKI for the product, for the same reason.)</li>
+										<li>I also added the image to be deleted when a product was. The documentation said nothing about needing to put the holder name as part of the public_ID. Confused as to why, but I did at least figured it out by guessing.</li>
+										<li>I didn’t like user could get to the login page, when they where logged in. So I made it to redirect them away from that page, if they where logged in.</li>
+										<li>Because the Implementation of pagination had changed since the tutorial was made, I practice understanding the documentation for it, so I could implement it as if it was complete new to me. (How they where showing me how to use it, it was not the way I would have written it.)</li>
+										<li>Having the Chrome DevTools open can cause a crash.</li>
+									</ol>
+									
+               						<p>Building an inventory app, learned most about autherizing users useing <strong>JWT authentication</strong>, using token with cookies, how middleware work (Verse useing them withough knowing why it worked.), uploading files, setting up emails.</p>
+									<p>Learning some frontend things, but those shown to me, not explained.</p>
+								</div>
+								<div class="project-links">
+									<a href="https://github.com/EfrainAD/Inventory-Management-App-API">Github API Link</a>
+									<a href="https://github.com/EfrainAD/Inventory-Management-App">Github React/frontend Link</a>
+               						<a class="deploy" target="_blank" href="https://inventory-management-app-tau.vercel.app/">Depolyment Link</a>
+								</div>
+							</article>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -373,7 +399,7 @@
 		
 		<!-- Footer -->
 		<section class="section-4 has-text-centered container">
-			<a href="http://www.hassanali.me/about">Template Creater Hassan Ali</a>
+			<a target="_blank" href="http://www.hassanali.me/about">Template Creater Hassan Ali</a>
 		</section>
 		
 		<!-- Scripts  -->
