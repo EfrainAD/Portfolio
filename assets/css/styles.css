@@ -1,226 +1,223 @@
-html, body{
-	font-size:16px;
-	color: #dfdfdf;
-	background-color: #063647; 
+html,
+body {
+   font-size: 16px;
+   color: #dfdfdf;
+   background-color: #063647;
 }
-p, ol {
-	margin: 1em;
+p,
+ol {
+   margin: 1em;
 }
 ul {
-	display: block;
-	list-style-type: disc;
-	margin-top: 1em;
-	margin-bottom: 1 em;
-	margin-left: 0; 
-	margin-right: 0; 
-	padding-left: 40px;
+   display: block;
+   list-style-type: disc;
+   margin-top: 1em;
+   margin-bottom: 1 em;
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 40px;
 }
 strong {
-	color: #dfdfdf;
+   color: #dfdfdf;
 }
 hr {
-	background: #063647;
-	margin-top: 3rem;
+   background: #063647;
+   margin-top: 3rem;
 }
 .p-header {
-	font-weight: bold;
-	margin-top: 1rem;
-	font-size: 1.1rem;
+   font-weight: bold;
+   margin-top: 1rem;
+   font-size: 1.1rem;
 }
 .project-links {
-	border-top:1px solid #dbdbdb
+   border-top: 1px solid #dbdbdb;
 }
 .project-links a {
-	color: #00d1b2; 
-	display:flex; justify-content:flex-start;
+   color: #00d1b2;
+   display: flex;
+   justify-content: flex-start;
 }
 
-.project-links a:hover{
-	background-color: #00B398; /*#00957F;*/
+.project-links a:hover {
+   background-color: #00b398; /*#00957F;*/
 }
 
-section{
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+section {
+   padding-top: 3rem;
+   padding-bottom: 3rem;
 }
 
 .section-1 {
-	background: #063647;
+   background: #063647;
 }
 
 .section-2 {
-	background-color: #052D3D;
+   background-color: #052d3d;
 }
 
 .section-3 {
-	background-color: #0E282E;
+   background-color: #0e282e;
 }
 
 .section-4 {
-	background-color: #063647;
-	padding: 0.2rem;
+   background-color: #063647;
+   padding: 0.2rem;
 }
 
 a.nav-item {
-	color: #dfdfdf;
+   color: #dfdfdf;
 }
 
 a.nav-item:hover {
-	color: #fff;
+   color: #fff;
 }
 
-.avatar{
-	height:200px;
-	border-radius: 50%;
+.avatar {
+   height: 200px;
+   border-radius: 50%;
 }
 
-.intro-description{
-	padding-top: 1rem;
+.intro-description {
+   padding-top: 1rem;
 }
 
-.connect-container img{
-	max-width:100%;
-	max-height:175px;
-	margin-bottom:15px;
+.connect-container img {
+   max-width: 100%;
+   max-height: 175px;
+   margin-bottom: 15px;
 }
 .columns {
-	display: flex;
-	justify-content: center;
+   display: flex;
+   justify-content: center;
 }
 .column {
-	flex-basis: 0;
-	flex-grow: 0;
-	flex-shrink: 1;
-	padding: 0.75rem;
- }
+   flex-basis: 0;
+   flex-grow: 0;
+   flex-shrink: 1;
+   padding: 0.75rem;
+}
 .project-figure {
-	margin: 0 auto 1rem auto;
-	max-height: 256px;
-	max-width: 256px;
+   margin: 0 auto 1rem auto;
+   max-height: 256px;
+   max-width: 256px;
 }
 .project-figure img {
-	height: 150px;
+   height: 150px;
 }
 .deploy {
-	margin-top: 0.3rem;
+   margin-top: 0.3rem;
 }
-.box  {
-	background-color: transparent;
-	border: 2px solid rgba(7, 59, 79, 0.5);
-	width: 350px;
-	/* max-width: 400px;*/
-	min-width: 350px;
-	height: 100%;
+.box {
+   background-color: transparent;
+   border: 2px solid rgba(7, 59, 79, 0.5);
+   width: 350px;
+   /* max-width: 400px;*/
+   min-width: 350px;
+   height: 100%;
 }
 .progress-bar {
-	background-color: blue;
-	height: 7px;
+   background-color: blue;
+   height: 7px;
 }
-.progress-bar._100-Days-of-JS {
-	width: 40%;
-}
-.progress-bar.ZTM-Complete-React {
-	width: 49%;
-}
-.progress-bar.ZTM-Data-Structure {
-	width: 74%;
-}
-.progress-bar.Design-With-CSS {
-	width: 80%;
+
+.project-title {
+   text-align: center;
+   text-transform: capitalize;
 }
 
 .title {
-	color: #fff;
-	margin-bottom: 2rem;
-	text-transform: capitalize;
+   color: #fff;
+   margin-bottom: 2rem;
+   text-transform: capitalize;
 }
 
 .intro {
-	text-align: justify;
-	width: 80%;
-	margin: 1em auto;
+   text-align: justify;
+   width: 80%;
+   margin: 1em auto;
 }
 
 .void-background {
-	background-color: transparent; 
+   background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
-	.nav-menu {
-		background-color: #063647;
-	}
+   .nav-menu {
+      background-color: #063647;
+   }
 
-	.nav-toggle:hover {
-		background-color: transparent;
-	}
+   .nav-toggle:hover {
+      background-color: transparent;
+   }
 
-	.nav-toggle span {
-		background-color: #dfdfdf;
-	}
+   .nav-toggle span {
+      background-color: #dfdfdf;
+   }
 
-	.nav-toggle span:hover {
-		background-color: #fff;
-	}
+   .nav-toggle span:hover {
+      background-color: #fff;
+   }
 }
 
 /* The Modal (background) */
 .modal {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
-	padding-top: 10%; /* Location of the box */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 10%; /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0, 0, 0); /* Fallback color */
+   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 /* Modal Content */
 .modal-content {
-	text-align: center;
-	color: #dfdfdf;
-	background-color: #9B1311;
-	margin: auto;
-	padding: 20px;
-	border: 1px solid #888;
-	width: 23em;
+   text-align: center;
+   color: #dfdfdf;
+   background-color: #9b1311;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 23em;
 }
 .modal-content li {
-	text-align: left;
-	padding: 6px;
+   text-align: left;
+   padding: 6px;
 }
 .modal-content h4 {
-	display: block;
-	font-size: 1.8em;
-	/* font-size: 1.17em; */
-    margin-top: 0.9em;
-    margin-bottom: 0.3em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
+   display: block;
+   font-size: 1.8em;
+   /* font-size: 1.17em; */
+   margin-top: 0.9em;
+   margin-bottom: 0.3em;
+   margin-left: 0;
+   margin-right: 0;
+   font-weight: bold;
 }
 .modal-content button {
-	background-color: #00d1b2;
-	font-size: 1.5em;
-	padding: 1em 3em;
-	margin: 1em;
+   background-color: #00d1b2;
+   font-size: 1.5em;
+   padding: 1em 3em;
+   margin: 1em;
 }
 .modal-content button {
-	background-color: #00B398;
+   background-color: #00b398;
 }
 
 /* The Close Button */
 .close {
-	color: #aaaaaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
+   color: #aaaaaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
 }
 
-.close:hover, .close:focus {
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
+.close:hover,
+.close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
 }
