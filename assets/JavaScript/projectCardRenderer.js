@@ -38,8 +38,10 @@ export const renderCards = (projects, location) => {
 
       project.links.forEach((link) => {
          const linkElement = document.createElement('a')
-         linkElement.href = link.url
+         if (link.url) linkElement.href = link.url
          linkElement.textContent = link.name
+         if (link.id) linkElement.id = link.id
+         if (link.class) linkElement.classList.add(link.id)
          projectLinksContainer.appendChild(linkElement)
       })
 
