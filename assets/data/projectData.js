@@ -7,12 +7,14 @@ export const currentProjects = [
       projectTags: 'React Native | SQL | Supabase',
       projectDescription: `<h3>Goals:</h3>
       <ul>
-        <li>To learn programming collaboratively with others.</li>
-        <li>To challenge myself by learning something new like React Native, building upon my existing experience with React. Additionally, I aim to expand my knowledge in SQL and utilize tools like Superbase to further enhance my skills.</li>
+         <li>To learn programming collaboratively with others.</li>
+         <li>To challenge myself by learning something new like React Native, building upon my existing experience with React. Additionally, I aim to expand my knowledge in SQL and utilize tools like Superbase to further enhance my skills.</li>
         <li>To develop leadership skills by leading a group, aligning with the theme of how I select the technologies to work with.</li>
       </ul>
       
-      <p>Currently, I am collaborating with a UX graduate from General Assembly on the design. This collaboration is primarily focused on the UX aspects of the project, providing valuable insights and expertise in that area.</p>
+      <p>
+         At present, my focus is on acquiring skills in project planning and leadership. Surprisingly, this has proven to be the most challenging aspect of the project, catching me somewhat off guard. However, I am determined to overcome these issues.
+      </p>
       `,
       links: [
          {
@@ -32,8 +34,10 @@ export const currentProjects = [
          <li>To consolidate what I have learned from tutorials and apply it in practical projects.</li>
          <li>To practice and reinforce my existing knowledge and skills.</li>
          <li>To fine-tune my abilities and address any areas that require improvement.</li>
-    </ul>
-    <p>Currently implementing recruiter to the api</p>
+      </ul>
+      <p>
+         I am currently in the final stages of developing the API. I am diligently working on enhancing its consistency and conducting some additional refactoring to improve its quality.
+      </p>
     `,
       links: [
          {
@@ -42,17 +46,31 @@ export const currentProjects = [
          },
       ],
    },
+   // {
+   //    title: 'Working on Certification',
+   //    imageUrl: './assets/img/cert-mongodb-thumbnail.png',
+   //    imageAlt: 'Image',
+   //    progressBarWidth: '',
+   //    projectTags: 'HTML | CSS/SASS | JavaScript',
+   //    projectDescription: `Split between this and AWS one, but thought I go for this one first. It's a certification from MongoDB`,
+   //    links: [
+   //       {
+   //          url: 'https://learn.mongodb.com/pages/certification-program',
+   //          name: 'learn.mongoDB.com',
+   //       },
+   //    ],
+   // },
    {
       title: 'Working on Certification',
       imageUrl: './assets/img/cert-mongodb-thumbnail.png',
-      imageAlt: 'Image',
-      progressBarWidth: '',
-      projectTags: 'HTML | CSS/SASS | JavaScript',
-      projectDescription: `Split between this and AWS one, but thought I go for this one first. It's a certification from MongoDB`,
+      imageAlt: 'Thombnail',
+      progressBarWidth: '42%',
+      projectTags: 'ASW',
+      projectDescription: `I am currently exploring AWS and diligently taking notes. My intention is to later restructure and delve deeper into the material. I aim to grasp the concepts organically without resorting to brute force memorization.`,
       links: [
          {
-            url: 'https://learn.mongodb.com/pages/certification-program',
-            name: 'learn.mongoDB.com',
+            url: 'https://zerotomastery.io/courses/learn-aws-cloud-practitioner/',
+            name: 'AWS Certified Cloud Practitioner: Zero to Mastery',
          },
       ],
    },
@@ -62,7 +80,7 @@ export const currentProjects = [
       imageAlt: 'Image',
       progressBarWidth: '80%',
       projectTags: 'HTML | CSS/SASS | JavaScript',
-      projectDescription: `In this tutorial, I am working on some frontend. I don't have as much experience in this area, and I want to finish this before moving on to the next bigger online class. I am currently working on a challenge in the tutorial right now.`,
+      projectDescription: `For the time being, this project is on hold due to other commitments. It is a frontend tutorial that I was working on. Since I don't have much experience in CSS, I unfortunately feel that I need to finish another online class before resuming this tutorial.`,
       links: [
          {
             url: 'https://www.udemy.com/course/build-website-with-html-css-sass-beginner-to-advanced/',
@@ -78,6 +96,28 @@ export const currentProjects = [
          },
       ],
    },
+   // {
+   //    title: 'Online Class',
+   //    imageUrl: './assets/img/Web-Design-With-HTML-CSS-and-SASS.jpeg',
+   //    imageAlt: 'Image',
+   //    progressBarWidth: '80%',
+   //    projectTags: 'HTML | CSS/SASS | JavaScript',
+   //    projectDescription: `In this tutorial, I am working on some frontend. I don't have as much experience in this area, and I want to finish this before moving on to the next bigger online class. I am currently working on a challenge in the tutorial right now.`,
+   //    links: [
+   //       {
+   //          url: 'https://www.udemy.com/course/build-website-with-html-css-sass-beginner-to-advanced/',
+   //          name: 'Class Link',
+   //       },
+   //       {
+   //          url: 'https://github.com/EfrainAD/Restaurant_Website',
+   //          name: 'Github Link - Restaurant Website',
+   //       },
+   //       {
+   //          url: 'https://github.com/EfrainAD/Agency_Website',
+   //          name: 'Github Link - Agency Website',
+   //       },
+   //    ],
+   // },
 ]
 
 export const GAProjects = [
