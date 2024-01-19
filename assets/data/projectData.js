@@ -238,4 +238,94 @@ export const GAProjects = [
          },
       ],
    },
+   {
+      title: 'Tic-Tac-Toe',
+      imageUrl: './assets/img/tic-tac-toe-game.png',
+      imageAlt: 'Screen Shot of the tic-tac-toe game',
+      progressBarWidth: '',
+      projectTags: 'HTML5 | CSS | JavaScript',
+      projectDescription: `
+      <p>
+      Tic Tac Toe game was my first major homework assignment in General Assembly. I revisited it and completed both the assigned bonuses and added my own personal bonuses on top of that.
+   </p>
+   <P>
+      One of my main goals was also to utilize the principles of presets to make my code cleaner.
+   </P>
+   <div class="p-header has-text-centered">
+      Challenges Overcomed
+   </div>
+   <ol>
+      <li>
+         When displaying multiple error messages: switching from display: none to display block too fast made it so that the animation wouldn't work. I found no online resources to explain why I had this problem, and had to add another setTimeout to work around it (it displayed fine without the animation though).
+       </li>
+       <li>
+         I tried making a board display with a gap feature, but sometimes one gap was larger than the others. I had to abandon this idea and instead change the borders with a function to customize them based on their position in the lineup.
+       </li>
+       <li>
+         The AI had to track the "successful" move, then determine if it qualified as a win. It had to wait to process everything first to know and keep the best move, which made it a little tricky and messy to keep track of. It was a good learning experience to try and work through this.
+       </li>
+   </ol>
+      `,
+      links: [
+         {
+            url: 'https://github.com/EfrainAD/Tic-Tac-Toe/',
+            name: 'Github Link',
+         },
+         {
+            url: 'https://efrainad.github.io/Tic-Tac-Toe/',
+            name: 'Play The Game!',
+         },
+      ],
+   },
+   {
+      title: 'Inventory Management App',
+      imageUrl: './assets/img/Inventory-Management-App.png',
+      imageAlt: 'Screenshot of the Inventory Management App',
+      progressBarWidth: '',
+      projectTags: 'Tutorial | Express.js | MongooseDB',
+      projectDescription: `
+      <div class="p-header has-text-centered">
+      The main things I learned:
+   </div>
+   <ul>
+      <li>I gained a better understanding of middleware.</li>
+      <li>I learned how to build authentication with JSON Web Tokens and used cookies. I didn’t use JSON Web Tokens or cookies in my past projects.</li>
+      <li>I learned how to set up emails and send them to users’ email addresses so that they can reset their password if they forgot it.</li>
+      <li>I also learned that when setting up the “contact us” feature, I can set the email to go to the owner of the website, so that when they click reply, it will use the user’s email address.</li>
+      <li>I learned how to upload images with Multer and save them to Cloudinary.</li>
+      <li>I learned how to manage state with Redux Toolkit, although I prefer the implementation I am learning in another tutorial better.</li>
+      <li>I utilized the "express-async-handler" package.</li>
+      <li>I set up error handling in Express.</li>
+   </ul>
+   <div class="p-header has-text-centered">
+      Main things I learned on my own
+   </div>
+   <ol>
+      <li>I changed the upload image with Multer to use memory/buffer instead of saving the file on the server. A free server didn't want me to use up their space, and it was wasteful anyway since I was just uploading it to Cloudinary.</li>
+      <li>I also set it up so that you could easily change Multer methods with env.</li>
+      <li>I didn’t like uploading images to Cloudinary from the frontend by setting it up to not require a signature, as the tutorial showed me. So I looked at the Cloudinary documentation to see how I could use signatures that would be sent from my API to the client to upload the image from there.</li>
+      <li>Another reason I didn't like how the tutorial did this was that anyone could flood my Cloudinary storage by uploading files again and again. So I found that I could give the file a name, and if I tried to upload a file with the same name, it would overwrite the old file. I liked this because it kept my storage clean. And the signature made sure they couldn't name the file anything they wanted. I used the user ID for profile pictures because they are unique and the SKU for the product for the same reason.</li>
+      <li>I also added the image to be deleted when a product was deleted. The documentation said nothing about needing to put the holder name as part of the public_ID. I was confused as to why, but I at least figured it out by guessing.</li>
+      <li>I didn’t like that users could get to the login page when they were already logged in, so I made it redirect them away from that page if they were logged in.</li>
+      <li>Because the implementation of pagination had changed since the tutorial was made, I practiced understanding the documentation for it so that I could implement it as if it were completely new to me. The way they were showing me how to use it was not the way I would have written it.</li>
+      <li>Having the Chrome DevTools open can cause a crash.</li>
+   </ol>
+   <p>Building an inventory app, I learned the most about authorizing users using <strong>JWT authentication</strong>, using tokens with cookies, how middleware works (versus using them without knowing why it worked), uploading files, and setting up emails.</p>
+   <p>I learned some frontend things, but those were shown to me without being explained.</p>
+      `,
+      links: [
+         {
+            url: 'https://github.com/EfrainAD/Inventory-Management-App-API',
+            name: 'Github API Link',
+         },
+         {
+            url: 'https://github.com/EfrainAD/Inventory-Management-App',
+            name: 'Github React/frontend Link',
+         },
+         {
+            url: 'https://inventory-management-app-tau.vercel.app/',
+            name: 'Deployment Link',
+         },
+      ],
+   },
 ]
