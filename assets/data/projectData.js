@@ -4,22 +4,34 @@ export const currentProjects = [
       imageUrl: './assets/img/React-Native-Thumbnail.gif',
       imageAlt: 'Cover image',
       progressBarWidth: '',
-      projectTags: 'React Native | SQL | Supabase',
-      projectDescription: `<h3>Goals:</h3>
-      <ul>
-         <li>To learn programming collaboratively with others.</li>
-         <li>To challenge myself by learning something new like React Native, building upon my existing experience with React. Additionally, I aim to expand my knowledge in SQL and utilize tools like Superbase to further enhance my skills.</li>
-        <li>To develop leadership skills by leading a group, aligning with the theme of how I select the technologies to work with.</li>
-      </ul>
+      projectTags: 'React Native | SQL | Jira',
+      projectDescription: `<h3>What is the App?</h3>
+      <p>This app is a workout app designed to be simple and easy to use. I personally didn't like the current apps, so I decided to create one that I would enjoy using.</p>
       
-      <p>
-         At present, my focus is on acquiring skills in project planning and leadership. Surprisingly, this has proven to be the most challenging aspect of the project, catching me somewhat off guard. However, I am determined to overcome these issues.
-      </p>
+      <h3>Collaborators</h3>
+      <p>A UX graduate joined me to create the design and add features to this project. From there, I created an ERD and a component diagram, as well as determining the Firebase structure that makes sense. I am currently working on this with another software engineer.</p>
+      
+      <h3>Goals:</h3>
+      <ul>
+         <li>To learn programming collaboratively with others, including UX designers and other developers.</li>
+         <li>To learn React Native and become more familiar with SQL, as most of my work is in NoSQL.</li>
+         <li>To become familiar with Jira and Figma.</li>
+         <li>To develop leadership skills by leading a group.</li>
+         <li>Have something in the app store.</li>
+      </ul>      
       `,
       links: [
          {
             url: 'https://github.com/EfrainAD/Workout-App',
             name: 'Github Link',
+         },
+         {
+            url: 'https://drive.google.com/file/d/1az-pF_ae7exFhmgz4lcUNsxLztKE1MgY/view?usp=sharing',
+            name: 'Component Diagram',
+         },
+         {
+            url: 'https://github.com/EfrainAD/Workout-App/blob/main/ERDv1.md',
+            name: 'ERD',
          },
       ],
    },
@@ -29,20 +41,26 @@ export const currentProjects = [
       imageAlt: 'Cover image',
       progressBarWidth: '',
       projectTags: 'React | nongodb | express',
-      projectDescription: `<h3>Goals:</h3>
+      projectDescription: `<h3>What is the app/website?</h3>
+      <p>This site is designed to record jobs you apply to and allows a coach to keep an eye on many coaches. The first version is just the job tracker without the coach. I keep adding features to version one.</p>
+      
+      <h3>Where am I?</h3>
+      <p>I am working in both the frontend and backend. I had built the API first, but every time I add a new feature that I want when using it, it requires that I go in and add that to the API as well.</p>
+      
+      <h3>Goals:</h3>
       <ul>
-         <li>To consolidate what I have learned from tutorials and apply it in practical projects.</li>
-         <li>To practice and reinforce my existing knowledge and skills.</li>
-         <li>To fine-tune my abilities and address any areas that require improvement.</li>
-      </ul>
-      <p>
-         I am currently in the final stages of developing the API. I am diligently working on enhancing its consistency and conducting some additional refactoring to improve its quality.
-      </p>
+         <li>To apply what I have learned from General Assembly, tutorials, and my volunteer work to something I have designed myself.</li>
+         <li>I hope to get a General Assembly coach to use it because it is a good product.</li>
+      </ul>      
     `,
       links: [
          {
+            url: 'https://github.com/EfrainAD/Job-Tracker-App',
+            name: 'Github Link to the frontend',
+         },
+         {
             url: 'https://github.com/EfrainAD/Job-Tracker-API',
-            name: 'Github Link to the corrent work on the API',
+            name: 'Github Link to the API',
          },
       ],
    },
@@ -60,27 +78,27 @@ export const currentProjects = [
    //       },
    //    ],
    // },
-   {
-      title: 'Working on Certification',
-      imageUrl: './assets/img/cert-mongodb-thumbnail.png',
-      imageAlt: 'Thombnail',
-      progressBarWidth: '42%',
-      projectTags: 'ASW',
-      projectDescription: `I am currently exploring AWS and diligently taking notes. My intention is to later restructure and delve deeper into the material. I aim to grasp the concepts organically without resorting to brute force memorization.`,
-      links: [
-         {
-            url: 'https://zerotomastery.io/courses/learn-aws-cloud-practitioner/',
-            name: 'AWS Certified Cloud Practitioner: Zero to Mastery',
-         },
-      ],
-   },
+   // {
+   //    title: 'Working on Certification',
+   //    imageUrl: './assets/img/cert-mongodb-thumbnail.png',
+   //    imageAlt: 'Thombnail',
+   //    progressBarWidth: '42%',
+   //    projectTags: 'ASW',
+   //    projectDescription: `I am currently exploring AWS and diligently taking notes. My intention is to later restructure and delve deeper into the material. I aim to grasp the concepts organically without resorting to brute force memorization.`,
+   //    links: [
+   //       {
+   //          url: 'https://zerotomastery.io/courses/learn-aws-cloud-practitioner/',
+   //          name: 'AWS Certified Cloud Practitioner: Zero to Mastery',
+   //       },
+   //    ],
+   // },
    {
       title: 'Online Class',
       imageUrl: './assets/img/Web-Design-With-HTML-CSS-and-SASS.jpeg',
       imageAlt: 'Image',
       progressBarWidth: '80%',
       projectTags: 'HTML | CSS/SASS | JavaScript',
-      projectDescription: `For the time being, this project is on hold due to other commitments. It is a frontend tutorial that I was working on. Since I don't have much experience in CSS, I unfortunately feel that I need to finish another online class before resuming this tutorial.`,
+      projectDescription: `For the time being, this project is on hold due to other commitments. It is a frontend tutorial that I was working on.`,
       links: [
          {
             url: 'https://www.udemy.com/course/build-website-with-html-css-sass-beginner-to-advanced/',
@@ -127,17 +145,15 @@ export const GAProjects = [
       imageAlt: 'Screen Shot of someone playing Survive The Zombes',
       progressBarWidth: '',
       projectTags: 'HTML5 | CSS | JavaScript',
-      projectDescription: `
-      <p>
-         Outside of a Tic Tac Toe game, this was my first project and the first project I struggled with. I wanted to stretch myself as far as I could. This project holds the most memories for me. It was for my General Assembly bootcamp, and I was very disappointed with how far I had gotten. This is the one project from which I learned the most about fixing bugs. As time has passed, I have become less and less disappointed with it. I do wish I was able to do more in the timeframe I had, but I kept breaking everything under the sun.
-      </p>`,
+      projectDescription: `<h3>What is this project?</h3>
+      <p>This project holds the most memories for me. It is the project from which I learned the most about fixing bugs. You control an animated character running around killing zombies. You can only eliminate zombies from the back or sides.</p>
+`,
       links: [
          {
             url: 'https://github.com/EfrainAD/Project-One-Servive-the-Zombies',
             name: 'Survive the Zombes',
          },
          {
-            // url: '',
             id: 'myBtn',
             class: 'deploy',
             name: 'Play The Game!',
@@ -152,11 +168,16 @@ export const GAProjects = [
       projectTags: 'express.js | mongooseDB | liquid Templates',
       projectDescription: `
       <p>
-         This is the start of a personal project that I would like to work on. I plan to keep working on this one and use what I have learned to move it over to my "real" project. However, I would still like to complete this stepping stone.
+         This is a study app in which the user self-evaluates themselves. Based on their answers, the flashcards will be seen again later and later, so the user can be more efficient in their studies.
       </p>
       <p>
-         This is a study app in which the user self-evaluates themselves. Based on their answers, the flashcards will be seen again later and later, so the user can be more efficient in their studies.
-      </p>`,
+         The complications in this app have to do with database, since feture allowed private decks and cards, as well as making them public to use. What happens if a person has it then makes it private, or deletes it. 
+      </p>
+      <h3>Goals:</h3>
+      <ul>
+         <li>Use what I learned here about how the database sides works to create a Go Study Site.</li>
+      </ul>
+      `,
       links: [
          {
             url: 'https://github.com/EfrainAD/Project_2',
@@ -176,7 +197,7 @@ export const GAProjects = [
       projectTags: 'React | PostgreSQL | Django',
       projectDescription: `
       <p>
-         This was my second project working with a team. It really opened my eyes to how much fun working with a team can be. We made mistakes and had some pushback with each other, but ultimately we worked well together.
+         This was my second General Assembly project, working with a team. It really opened my eyes to how much fun working with a team can be. The night before our presentation, the team encountered an issue with a feature. Determined not to submit a non-working feature, I stayed up until 3 am, engaging in pair programming with one team member and then another until we got it working.
       </p>
       <p>
          We created a web app that had two types of users: clients who could post a job, and developers who could bid for the job.
@@ -190,10 +211,6 @@ export const GAProjects = [
             href: 'https://github.com/EfrainAD/Dreamlancer-server',
             name: 'Github Backend Link',
          },
-         // {
-         //    href: '',
-         //    name: 'Depolyment Link',
-         // },
       ],
    },
    {
@@ -204,7 +221,7 @@ export const GAProjects = [
       projectTags: 'React | Mongoose | Express',
       projectDescription: `
       <p>
-         This is mostly complete. It was the first project I did with a team. My job was the structure of the web pages and frontend features. Not much I would like to do with this, other than see how I can make it look nicer.
+         This was my first General Assembaly project I did with a team. My job was the structure of the web pages and frontend features. I did help out some with design, but that wasn't my main role in the team.
       </p>`,
       links: [
          {
