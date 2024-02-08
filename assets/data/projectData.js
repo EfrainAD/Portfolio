@@ -184,7 +184,7 @@ export const GAProjects = [
             name: 'Github Link',
          },
          {
-            href: 'https://long-plum-barracuda-hat.cyclic.app',
+            url: 'https://long-plum-barracuda-hat.cyclic.app',
             name: 'Depolyment Link',
          },
       ],
@@ -208,7 +208,7 @@ export const GAProjects = [
             name: 'Github Frontend Link',
          },
          {
-            href: 'https://github.com/EfrainAD/Dreamlancer-server',
+            url: 'https://github.com/EfrainAD/Dreamlancer-server',
             name: 'Github Backend Link',
          },
       ],
