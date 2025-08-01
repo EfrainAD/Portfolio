@@ -40,7 +40,7 @@ export const currentProjects = [
       imageUrl: './assets/img/job-tracker-thumbnail.jpeg',
       imageAlt: 'Cover image',
       progressBarWidth: '',
-      projectTags: 'React | nongodb | express',
+      projectTags: 'React | mongodb | express',
       projectDescription: `<h3>What is the app/website?</h3>
       <p>This site is designed to record jobs you apply to and allows a coach to keep an eye on many coaches. The first version is just the job tracker without the coach. I keep adding features to version one.</p>
       
@@ -225,7 +225,7 @@ export const GAProjects = [
       </p>`,
       links: [
          {
-            url: 'https://github.com/EfrainAD/project-3-React',
+            url: 'https://github.com/mcguirto/Genshin-Artifact-Calculator-Client',
             name: 'Github Link for the frontend with React',
          },
          {
